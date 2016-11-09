@@ -15,6 +15,7 @@ public class VisitThread implements Runnable {
 			HttpUtil.visitWeb(url);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 	}
 
